@@ -66,14 +66,14 @@ ul li {
   letter-spacing: .1em;
 }
 
-.contact-section {
+.contact-left {
   margin: auto;
   width: 50%;
   border-right: 1em;
   padding: 10px;
 }
 
-.contact-section .message-section {
+.contact-left .message-section {
   text-align: right;
 }
 
