@@ -13,7 +13,7 @@ body {
 .cap-C {
     font-size: 150%;
     font-weight: bold;
-    margin-right: .05em;
+    margin-right: .1em;
 }
 
 .navbar{
@@ -37,7 +37,7 @@ ul {
     font-weight: bold;
     li {
         font-size: 130%;
-        margin-left: 3em;
+        margin-left: 4em;
     }
 }
 
@@ -68,14 +68,8 @@ ul {
 }
 
 .contact-left {
-    margin: auto;
-    width: 50%;
-    border-right: 1em;
-    padding: 10px;
+    object-position: 100%;
 
-    .message-section {
-        text-align: right;
-    }
 }
 
 .end-bar {

@@ -12,20 +12,20 @@ body {
 .cap-C {
   font-size: 150%;
   font-weight: bold;
-  margin-right: .05em;
+  margin-right: 0.05em;
 }
 
 .navbar {
   background: var(--primary-color);
-  padding: 1.5em;
+  padding: 1em;
 }
 
 .navbar .logo {
   text-decoration: none;
   font-weight: bold;
   color: black;
-  font-size: 175%;
-  margin-left: 3em;
+  font-size: 150%;
+  margin-left: 3.5em;
   margin-bottom: 0.4em;
 }
 
@@ -33,11 +33,13 @@ ul {
   list-style-type: none;
   margin-top: 1em;
   font-weight: bold;
+  margin-right: 1.5em;
 }
 
 ul li {
   font-size: 130%;
-  margin-left: 3em;
+  margin-left: 2em;
+  margin-right: 1em;
 }
 
 .earth-image {
@@ -67,14 +69,8 @@ ul li {
 }
 
 .contact-left {
-  margin: auto;
-  width: 50%;
-  border-right: 1em;
-  padding: 10px;
-}
-
-.contact-left .message-section {
-  text-align: right;
+  -o-object-position: 100%;
+     object-position: 100%;
 }
 
 .end-bar {
@@ -95,7 +91,7 @@ ul li {
 
 @media only screen and (min-width: 1080px) {
   section {
-    padding: 10em 4em;
+    padding: 4em 4em;
   }
   .container {
     display: -webkit-box;
